@@ -1,0 +1,32 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+.mat-toolbar {
+  background-color: #1e3d59;
+}
+
+.mat-toolbar img {
+  height: 180px;
+}
+
+.mat-toolbar a {
+  display: inline-block;
+  margin: 0 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.mat-toolbar a:hover {
+  color: #89abe3;
+}
+
+.mat-toolbar button {
+  background-color: #009688;
+  color: #ffffff;
+  border: none;
+}
+
+.mat-toolbar button:hover {
+  background-color: #00796b;
+}

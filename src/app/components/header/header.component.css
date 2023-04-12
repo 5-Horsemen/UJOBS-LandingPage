@@ -4,10 +4,12 @@
 
 .mat-toolbar {
   background-color: #1e3d59;
+  padding: 0 10%;
 }
 
 .mat-toolbar img {
   height: 180px;
+  margin-top: 15px;
 }
 
 .mat-toolbar a {

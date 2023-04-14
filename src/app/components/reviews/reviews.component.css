@@ -1,0 +1,35 @@
+@import "../../../styles.css";
+
+.review-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.review-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewer-name {
+  margin: 10px 0 5px 0;
+}
+
+.reviewer-job {
+  margin: 0 0 10px 0;
+}
+
+.review-text {
+  font-size: 14px;
+}
+
+h3 {
+  font-family: "Lato", sans-serif !important;
+}
+
+h4 {
+  font-family: "Lato", sans-serif !important;
+}

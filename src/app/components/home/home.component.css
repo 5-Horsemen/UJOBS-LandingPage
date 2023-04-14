@@ -102,3 +102,20 @@ img {
 .features-button:hover {
   background-color: #0055b8;
 }
+
+.reviews h2 {
+  text-align: center;
+}
+
+.review-item {
+  margin-bottom: 20px;
+}
+
+.reviews {
+  background: var(--accent-color);
+  width: 100hv;
+}
+
+.reviews .container {
+  margin-top: 50px;
+}

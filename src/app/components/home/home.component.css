@@ -1,23 +1,7 @@
+@import "../../../styles.css";
+
 h1 {
-  font-size: 26px;
-  line-height: 32px;
-  color: #fff;
-  font-weight: 600;
   text-transform: uppercase;
-}
-
-p {
-  font-size: 14px;
-  line-height: 18px;
-  color: #fff;
-}
-
-body {
-  background: linear-gradient(
-    180deg,
-    #345aa4 -28.35%,
-    rgba(63, 0, 156, 0) 153.96%
-  );
 }
 
 img {
@@ -33,6 +17,7 @@ img {
 .container {
   max-width: 1000px;
   margin: 0 auto;
+  display: flex;
 }
 .hero {
   gap: 2ep;
@@ -64,4 +49,29 @@ img {
   border-radius: 10px;
   transition: 0.3s ease-in-out;
   color: #fff;
+}
+
+.advantages {
+  gap: 1em;
+  flex-wrap: nowrap;
+  background: var(--accent-color);
+  width: 100hv;
+}
+.advantage-content {
+  margin-top: 100px;
+}
+
+.app-store-buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 300px;
+  margin-top: 20px;
+}
+
+.app-store-badge {
+  height: 60px;
+  width: auto;
+}
+.app-store-badge-apple {
+  margin-top: 10px;
 }

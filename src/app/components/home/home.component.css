@@ -66,6 +66,7 @@ img {
   justify-content: space-between;
   max-width: 300px;
   margin-top: 20px;
+  margin-left: 60px;
 }
 
 .app-store-badge {
@@ -74,4 +75,47 @@ img {
 }
 .app-store-badge-apple {
   margin-top: 10px;
+}
+
+.custom-list li {
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+.features-content {
+  margin-top: 100px;
+}
+
+.features-button {
+  background-color: var(--secondary-color);
+  color: var(--accent-color) !important;
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  font-family: "Lato", sans-serif !important;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+.features-button:hover {
+  background-color: #0055b8;
+}
+
+.reviews h2 {
+  text-align: center;
+}
+
+.review-item {
+  margin-bottom: 20px;
+}
+
+.reviews {
+  background: var(--accent-color);
+  width: 100hv;
+}
+
+.reviews .container {
+  margin-top: 50px;
 }

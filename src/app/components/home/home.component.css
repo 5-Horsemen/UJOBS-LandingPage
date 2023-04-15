@@ -4,6 +4,11 @@ h1 {
   text-transform: uppercase;
 }
 
+.small-text {
+  font: italic;
+  font-size: 12px;
+}
+
 img {
   max-width: 100%;
   object-fit: cover;
@@ -19,6 +24,39 @@ img {
   margin: 0 auto;
   display: flex;
 }
+
+.wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.image-stack {
+  position: relative;
+  width: 240px;
+  height: 90px;
+}
+
+.img1 {
+  position: absolute;
+  z-index: 1;
+  top: 30px;
+  left: 0;
+}
+
+.img2{
+  position: absolute;
+  z-index: 2;
+  top: 30px;
+  left: 50px;
+}
+.img3{
+  position: absolute;
+  z-index: 3;
+  top: 30px;
+  left: 100px;
+}
+
 .hero {
   gap: 2ep;
   flex-wrap: wrap-reverse;
@@ -42,13 +80,27 @@ img {
 }
 
 .hero button {
-  font-weight: 700;
-  font-size: 20px;
-  padding: 0.3em 1em;
-  background: linear-gradient(90deg, #345aa4 0%, rgba(63, 0, 156, 0.9) 164.26%);
-  border-radius: 10px;
-  transition: 0.3s ease-in-out;
-  color: #fff;
+  background-color: var(--secondary-color);
+  color: var(--accent-color) !important;
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  font-family: "Lato", sans-serif !important;
+  margin-top: 50px;
+  margin-left: 0;
+}
+
+.hero button:hover{
+  background-color: #0055b8;
+}
+
+.hero-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .advantages {
@@ -99,6 +151,7 @@ img {
   margin-left: 80px;
 }
 
+
 .features-button:hover {
   background-color: #0055b8;
 }
@@ -120,6 +173,7 @@ img {
   margin-top: 50px;
 }
 
+
 .hero-image {
   width: 500px;
 }
@@ -138,3 +192,4 @@ img {
   margin-left: 100px;
   margin-bottom: 100px;
 }
+
